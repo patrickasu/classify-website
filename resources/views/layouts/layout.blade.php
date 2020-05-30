@@ -7,6 +7,11 @@
         <title>Laravel</title>
         <meta name="csrf-token" content="{{ csrf_token() }}">
 
+         <!-- Jquery Header Script -->
+        <script src="https://pagecdn.io/lib/jquery/3.2.1/jquery.min.js"></script>
+        <script>
+            window.jQuery || document.write('<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"><\/script>');
+        </script>
         <!-- Fonts -->
         <script src="https://use.fontawesome.com/aaeaa2b8d9.js"></script>
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
@@ -101,7 +106,8 @@
     </body>
 </html>
 
-<script src="{{ asset('js/jquery.min.js') }}"></script>
+{{-- <script src="{{ asset('js/jquery.min.js') }}"></script> --}}
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <script type="text/javascript">
     $(document).ready(function(){
         $('#state').keyup(function(){

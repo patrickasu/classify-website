@@ -101,8 +101,7 @@
     </body>
 </html>
 
-{{-- <script src="{{ asset('js/jquery.min.js') }}"></script> --}}
-<script src="{{ asset('js/jquery.min.js') }}" type="text/javascript"></script>
+<script src="{{ asset('/js/jquery.min.js') }}"></script>
 <script type="text/javascript">
     $(document).ready(function(){
         $('#state').keyup(function(){

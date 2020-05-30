@@ -102,7 +102,7 @@
 </html>
 
 {{-- <script src="{{ asset('js/jquery.min.js') }}"></script> --}}
-<script type="text/javascript" src="{{ URL::asset('js/jquery.min.js') }}"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script type="text/javascript">
     $(document).ready(function(){
         $('#state').keyup(function(){

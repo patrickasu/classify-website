@@ -4,6 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"> 
+        
 
         <title>Laravel</title>
         <meta name="csrf-token" content="{{ csrf_token() }}">
@@ -166,17 +167,17 @@
     $(document).ready(function(){
         if(window.location == "http://127.0.0.1:8000/"){
             var _token = $('input[name="_token"]').val();
-    $.ajax({
-            url: "{{ route('categories.ads') }}",
-                method: "GET",
-                data: {_token:_token},
-            success: function(data){
-                $('#advertisements').html(data);  
-            },
-            error: function(data) {
-            console.log("ERROR: ", data);
-            }
-        });
+        $.ajax({
+                url: "{{ route('categories.ads') }}",
+                    method: "GET",
+                    data: {_token:_token},
+                success: function(data){
+                    console.log(data);  
+                },
+                error: function(data) {
+                console.log("ERROR: ", data);
+                }
+            });
         }
     });
     $(document).ready(function(){

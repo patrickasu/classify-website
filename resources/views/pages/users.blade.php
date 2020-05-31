@@ -24,7 +24,7 @@
             <div class="col-md-9">
                 <div class="card">
                     <div class="card-header">
-                        <strong>Products</strong>
+                        <strong>Prod</strong>
                     </div>
                     <div class="card-body">
                         <div class="col-lg-12">

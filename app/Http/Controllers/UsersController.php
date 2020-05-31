@@ -204,7 +204,7 @@ class UsersController extends Controller
         }
     }
     public function getAds(){
-        $ads = DB::table('Advertisements')->get();
+        $ads = DB::table('advertisements')->get();
         $output = '';
         if($ads->count() > 0){
             foreach($ads as $row){

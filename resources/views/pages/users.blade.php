@@ -24,7 +24,7 @@
             <div class="col-md-9">
                 <div class="card">
                     <div class="card-header">
-                        <strong>L</strong>
+                        <strong>Lnbnnn</strong>
                     </div>
                     <div class="card-body">
                         <div class="col-lg-12">

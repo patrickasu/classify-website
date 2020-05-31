@@ -171,8 +171,10 @@
                 method: "GET",
                 data: {_token:_token},
             success: function(data){
-                //$('#categories').fadeIn();
                 $('#advertisements').html(data);  
+            },
+            error: function(data) {
+            console.log("ERROR: ", data);
             }
         });
         }

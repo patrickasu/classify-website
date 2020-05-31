@@ -166,7 +166,7 @@
         });
     });
     $(document).ready(function(){
-        if(window.location == "http://seylon.herokuapp.com"){
+        if(window.location == "http://127.0.0.1:8000/"){
             var _token = $('input[name="_token"]').val();
     $.ajax({
             url: "{{ route('categories.ads') }}",

@@ -95,11 +95,11 @@
         @endif
         @yield('content')
         @include('includes.footer')
-        <script src="https://code.jquery.com/jquery-3.5.0.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+        <script src="{{ asset('js/jqueryy.min.js') }}"></script>
         </body>
 </html>
 
-<script src="https://code.jquery.com/jquery-3.5.0.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+<script src="{{ asset('js/jqueryy.min.js') }}"></script>
 <script type="text/javascript">
     $(document).ready(function(){
         $('#state').keyup(function(){
@@ -172,7 +172,7 @@
                 data: {_token:_token},
             success: function(data){
                 //$('#categories').fadeIn();
-                $('#Advertisements').html(data);  
+                $('#advertisements').html(data);  
             }
         });
         }

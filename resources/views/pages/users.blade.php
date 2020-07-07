@@ -34,7 +34,9 @@
                                 </div>
                             @endif
                         </div>
-                        <div class="row" id="advertisements"></div>
+                        <div class="row" id="advertisements">
+                            
+                        </div>
                     </div>
                 </div>
             </div>

@@ -24,7 +24,7 @@
             <div class="col-md-9">
                 <div class="card">
                     <div class="card-header">
-                        <strong>cons</strong>
+                        <strong>Select Category</strong>
                     </div>
                     <div class="card-body">
                         <div class="col-lg-12">
@@ -34,9 +34,7 @@
                                 </div>
                             @endif
                         </div>
-                        <div class="row" id="advertisements">
-                            
-                        </div>
+                        <div class="row" id="advertisements"></div>
                     </div>
                 </div>
             </div>
